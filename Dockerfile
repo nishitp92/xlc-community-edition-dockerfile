@@ -16,11 +16,11 @@
 
 FROM ppc64le/ubuntu:16.04
 
-MAINTAINER Ray Kivisto, XL Compiler Build, Package, Install team - http://ibm.biz/xlcpp-linux-ce
+MAINTAINER Nishit Patel, XL Compiler Build, Package, Install team - http://ibm.biz/xlcpp-linux-ce
 
 ENV XLC_REPO_URL http://public.dhe.ibm.com/software/server/POWER/Linux/xl-compiler/eval/ppc64le
 ENV XLC_REPO_KEY_SHA256SUM e0eba411ed1cbf48fdab9e03dfc159a280bd728e716dd408ef321e42ac3ae552
-ENV XLC_VRM 13.1.5
+ENV XLC_VRM 13.1.6
 
 ################################################################################
 # The entrypoint is a script that will interactively display the license text and then configure the compiler.
